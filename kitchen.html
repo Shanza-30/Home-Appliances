@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitchen Appliances</title>
+    <style>
+        /* Embedded style for quick testing, or keep it in styles.css */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fc;
+            color: #333;
+        }
+
+        .section {
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .section p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.05rem;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 80%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .product-card p {
+            font-size: 0.95rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .product-card span {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #1abc9c;
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .products {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Kitchen Appliances</h2>
+            <p>Explore our range of refrigerators, ovens, blenders, and more.</p>
+
+            <div class="products">
+                <div class="product-card">
+                    <img src="Refrigerator.jpg" alt="Refrigerator">
+                    <h3>Double Door Refrigerator</h3>
+                    <p>Spacious and energy-efficient</p>
+                    <span>$499</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="R.jpeg" alt="Microwave">
+                    <h3>Microwave Oven</h3>
+                    <p>Smart cooking technology</p>
+                    <span>$199</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="Blender.webp" alt="Blender">
+                    <h3>High-Speed Blender</h3>
+                    <p>Perfect for smoothies & sauces</p>
+                    <span>$99</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="Smart Oven.jpeg" alt="Oven">
+                    <h3>Electric Oven</h3>
+                    <p>Multi-function with timer</p>
+                    <span>$299</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="slice toaster.webp" alt="Toaster">
+                    <h3>4-Slice Toaster</h3>
+                    <p>Even toasting with defrost mode</p>
+                    <span>$49</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="Smart Coffe Maker.webp" alt="Coffee Maker">
+                    <h3>Coffee Maker</h3>
+                    <p>Brew fresh coffee in minutes</p>
+                    <span>$149</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="Smart Diswasher.webp" alt="Dishwasher">
+                    <h3>Smart Dishwasher</h3>
+                    <p>Quiet and efficient cleaning</p>
+                    <span>$699</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="cold press juicer.webp" alt="Juicer">
+                    <h3>Cold Press Juicer</h3>
+                    <p>Extracts juice with max nutrients</p>
+                    <span>$199</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="air fryer.jpeg" alt="Air Fryer">
+                    <h3>Air Fryer</h3>
+                    <p>Healthy frying with little oil</p>
+                    <span>$129</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

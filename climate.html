@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Climate Control Appliances</title>
+    <style>
+        /* Professional Embedded Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fc;
+            color: #333;
+        }
+
+        .section {
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .section p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.05rem;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 75%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .product-card p {
+            font-size: 0.95rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .product-card span {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #1abc9c;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .products {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Climate Control</h2>
+            <p>Maintain your comfort with air conditioners, heaters, and purifiers.</p>
+
+            <div class="products">
+                <div class="product-card">
+                    <img src="Split Air Conditioner.jpeg" alt="Air Conditioner">
+                    <h3>Split Air Conditioner</h3>
+                    <p>Powerful cooling and silent mode</p>
+                    <span>$799</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="room heater.webp" alt="Heater">
+                    <h3>Room Heater</h3>
+                    <p>Safe and efficient heating</p>
+                    <span>$149</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="air purifier.webp" alt="Air Purifier">
+                    <h3>Air Purifier</h3>
+                    <p>HEPA filtration with low noise</p>
+                    <span>$299</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="portable ac.jpg" alt="Portable AC">
+                    <h3>Portable AC</h3>
+                    <p>Easy setup and energy-saving</p>
+                    <span>$499</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="oil filled.jpeg" alt="Oil Heater">
+                    <h3>Oil-Filled Radiator</h3>
+                    <p>Silent warmth for long hours</p>
+                    <span>$189</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="dehumidier.webp" alt="Dehumidifier">
+                    <h3>Dehumidifier</h3>
+                    <p>Reduces humidity and mold</p>
+                    <span>$349</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

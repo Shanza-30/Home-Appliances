@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Entertainment Electronics</title>
+    <style>
+        /* Professional Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fc;
+            color: #333;
+        }
+
+        .section {
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .section p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.05rem;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 80%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .product-card p {
+            font-size: 0.95rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .product-card span {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #1abc9c;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 992px) {
+            .products {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Entertainment Electronics</h2>
+            <p>Enjoy movies, music, and games with our top entertainment systems.</p>
+
+            <div class="products">
+                <div class="product-card">
+                    <img src="smart tv.webp" alt="Smart TV">
+                    <h3>55" Smart TV</h3>
+                    <p>4K Ultra HD with voice control</p>
+                    <span>$699</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="surround sound.webp" alt="Sound System">
+                    <h3>Surround Sound System</h3>
+                    <p>Immersive audio experience</p>
+                    <span>$299</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="gaming.jpeg" alt="Gaming Console">
+                    <h3>Gaming Console</h3>
+                    <p>Next-gen performance and visuals</p>
+                    <span>$499</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="projector.jpg" alt="Projector">
+                    <h3>Home Projector</h3>
+                    <p>Big-screen entertainment at home</p>
+                    <span>$399</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="streaming devices.webp" alt="Streaming Device">
+                    <h3>Streaming Device</h3>
+                    <p>Access Netflix, YouTube & more</p>
+                    <span>$99</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="vr headset.webp" alt="VR Headset">
+                    <h3>VR Headset</h3>
+                    <p>Step into virtual reality worlds</p>
+                    <span>$349</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

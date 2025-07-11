@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laundry Appliances</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Professional Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fc;
+            color: #333;
+        }
+
+        .section {
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .section p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.05rem;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 80%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .product-card p {
+            font-size: 0.95rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .product-card span {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #1abc9c;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 992px) {
+            .products {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Laundry Appliances</h2>
+            <p>Discover reliable washers, dryers, and ironing systems for your laundry needs.</p>
+
+            <div class="products">
+                <div class="product-card">
+                    <img src="Front Load Washer.webp" alt="Washing Machine">
+                    <h3>Front Load Washer</h3>
+                    <p>High-efficiency and silent operation</p>
+                    <span>$599</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="electric dryer.jpg" alt="Dryer">
+                    <h3>Electric Dryer</h3>
+                    <p>Quick drying with energy-saving mode</p>
+                    <span>$449</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="Steam Iron.jpeg" alt="Ironing System">
+                    <h3>Steam Ironing System</h3>
+                    <p>Professional-grade wrinkle removal</p>
+                    <span>$299</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="Smart Washer.jpeg" alt="Top Load Washer">
+                    <h3>Top Load Washer</h3>
+                    <p>Easy operation with multiple cycles</p>
+                    <span>$529</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="smart dryer.jpg" alt="Compact Dryer">
+                    <h3>Compact Dryer</h3>
+                    <p>Space-saving and efficient drying</p>
+                    <span>$399</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="Smart Steam Iron.webp" alt="Iron">
+                    <h3>Smart Steam Iron</h3>
+                    <p>Auto shut-off and anti-drip tech</p>
+                    <span>$89</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

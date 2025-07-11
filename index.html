@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePro - Premium Home Appliances</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <a href="#home" class="logo" id="home-link">
+                <i class="fas fa-home"></i>
+                <span>HomePro</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="icon-btn">
+                    <i class="fas fa-user"></i>
+                </button>
+                <button class="icon-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">3</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Transform Your Home with <span>Premium Appliances</span></h1>
+                    <p>Discover the latest collection of smart home appliances designed to make your life easier, more efficient, and more enjoyable.</p>
+                    <div class="hero-btns">
+                        <a href="#products" class="btn">Shop Now</a>
+                        <a href="#categories" class="btn btn-outline">View Deals</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="Smart Home Appliances.webp" alt="Smart Home Appliances">
+                </div>
+            </div>
+        </section>
+
+       <!-- Categories Section -->
+<section class="section" id="categories">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Shop by Category</h2>
+            <p class="section-subtitle">Find the perfect appliance for every room in your home</p>
+        </div>
+        <div class="categories">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-blender"></i>
+                </div>
+                <h3>Kitchen</h3>
+                <p>Refrigerators, Ovens, Microwaves & more</p>
+                <a href="kitchen.html" class="btn btn-outline">Explore</a>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-tshirt"></i>
+                </div>
+                <h3>Laundry</h3>
+                <p>Washers, Dryers, Ironing Systems</p>
+                <a href="laundry.html" class="btn btn-outline">Explore</a>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-wind"></i>
+                </div>
+                <h3>Climate</h3>
+                <p>ACs, Heaters, Air Purifiers</p>
+                <a href="climate.html" class="btn btn-outline">Explore</a>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-tv"></i>
+                </div>
+                <h3>Entertainment</h3>
+                <p>Smart TVs, Sound Systems</p>
+                <a href="entertainment.html" class="btn btn-outline">Explore</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Featured Products Section -->
+        <section class="section" id="products" style="background-color: #f0f7ff;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Products</h2>
+                    <p class="section-subtitle">Discover our best-selling and most popular appliances</p>
+                </div>
+                
+                <div class="products">
+                    <!-- Row 1 - Product 1 -->
+                    <div class="product-card">
+                        <span class="product-badge">Best Seller</span>
+                        <div class="product-image">
+                            <img src="Smart Refrigetor.webp" alt="Smart Refrigerator">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Kitchen</div>
+                            <h3 class="product-title">Smart Refrigerator</h3>
+                            <div class="product-price">$1,299.99</div>
+                            <div class="product-actions">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>(128)</span>
+                                </div>
+                                <button class="icon-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 1 - Product 2 -->
+                    <div class="product-card">
+                        <span class="product-badge">New</span>
+                        <div class="product-image">
+                            <img src="Smart Washer.jpeg" alt="Smart Washing Machine">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Laundry</div>
+                            <h3 class="product-title">Smart Washer</h3>
+                            <div class="product-price">$899.99</div>
+                            <div class="product-actions">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(94)</span>
+                                </div>
+                                <button class="icon-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 1 - Product 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Air Conditioner.webp" alt="Air Conditioner">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Climate</div>
+                            <h3 class="product-title">Smart Air Conditioner</h3>
+                            <div class="product-price">$799.99</div>
+                            <div class="product-actions">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(210)</span>
+                                </div>
+                                <button class="icon-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 2 - Product 4 -->
+                    <div class="product-card">
+                        <span class="product-badge">Sale</span>
+                        <div class="product-image">
+                            <img src="Smart Oven.jpeg" alt="Smart Oven">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Kitchen</div>
+                            <h3 class="product-title">Smart Oven</h3>
+                            <div class="product-price">$599.99 <span style="text-decoration: line-through; color: var(--gray); font-size: 1rem; margin-left: 10px;">$749.99</span></div>
+                            <div class="product-actions">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(87)</span>
+                                </div>
+                                <button class="icon-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 2 - Product 5 -->
+                    <div class="product-card">
+                        <span class="product-badge">Trending</span>
+                        <div class="product-image">
+                            <img src="Smart Vacuum.jpg" alt="Smart Vacuum">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Cleaning</div>
+                            <h3 class="product-title">Smart Vacuum</h3>
+                            <div class="product-price">$499.99</div>
+                            <div class="product-actions">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(76)</span>
+                                </div>
+                                <button class="icon-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 2 - Product 6 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Smart Coffe Maker.webp" alt="Smart Coffee Maker">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Kitchen</div>
+                            <h3 class="product-title">Smart Coffee Maker</h3>
+                            <div class="product-price">$249.99</div>
+                            <div class="product-actions">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(45)</span>
+                                </div>
+                                <button class="icon-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <h3>10,000+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p>Premium Products</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Customer Support</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5 Years</h3>
+                        <p>Warranty</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Customer Testimonials</h2>
+                    <p class="section-subtitle">Hear what our satisfied customers have to say</p>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>"The smart refrigerator I purchased has completely transformed my kitchen experience. The app integration makes grocery management a breeze!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Home Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>"I'm amazed by the energy efficiency of the air conditioner. My electricity bills have dropped by 30% since installation. Worth every penny!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Homeowner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>"The smart washer has saved me so much time. I can start laundry from my phone while I'm at work and come home to clean, dry clothes."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Jennifer Lopez">
+                            </div>
+                            <div class="author-info">
+                                <h4>Jennifer Lopez</h4>
+                                <p>Working Mom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with our latest products, exclusive deals, and home appliance tips</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </div>
+                   
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>HomePro</h3>
+                    <p>Your trusted partner for premium home appliances that make everyday living smarter, simpler, and more enjoyable.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Products</a></li>
+                        <li><a href="#categories"><i class="fas fa-chevron-right"></i> Categories</a></li>
+                        <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+               <div class="footer-col">
+    <h3>Categories</h3>
+    <ul class="footer-links">
+        <li><a href="kitchen.html"><i class="fas fa-chevron-right"></i> Kitchen Appliances</a></li>
+        <li><a href="laundry.html"><i class="fas fa-chevron-right"></i> Laundry Appliances</a></li>
+        <li><a href="climate.html"><i class="fas fa-chevron-right"></i> Climate Control</a></li>
+        <li><a href="entertainment.html"><i class="fas fa-chevron-right"></i> Home Entertainment</a></li>
+    </ul>
+</div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> 123 Home Street, Appliance City</a></li>
+                        <li><a href="#"><i class="fas fa-phone"></i> +1 (555) 123-4567</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i> support@homepro.com</a></li>
+                        <li><a href="#"><i class="fas fa-clock"></i> Mon-Fri: 9AM - 8PM</a></li>
+                        <li><a href="#"><i class="fas fa-clock"></i> Sat-Sun: 10AM - 6PM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 HomePro. All Rights Reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
